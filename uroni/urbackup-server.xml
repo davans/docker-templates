@@ -2,7 +2,7 @@
 <Containers>
   <Beta>False</Beta>
   <Category>Backup:</Category>
-  <Name>urBackup</Name>
+  <Name></Name>
   <Description>
     urbackup - privelaged for btrfs support [br]
   </Description>
