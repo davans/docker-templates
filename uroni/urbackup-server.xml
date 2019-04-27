@@ -12,7 +12,7 @@
   <Support>http://lime-technology.com/forum/index.php</Support>
   <Registry>https://registry.hub.docker.com/u/uroni/urbackup-server</Registry>
   <GitHub>https://github.com/uroni/urbackup-server-docker</GitHub>
-  <Repository>uroni/urbackup-serverr</Repository>
+  <Repository>uroni/urbackup-server</Repository>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
