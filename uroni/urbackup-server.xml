@@ -16,16 +16,16 @@
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
-      <Port1>
+      <Port>
         <HostPort>55413-55415</HostPort>
         <ContainerPort>55413-55415</ContainerPort>
         <Protocol>tcp</Protocol>
-      </Port1>
-      <Port2>    
+      </Port>
+      <Port>    
 	<HostPort>35623</HostPort>
         <ContainerPort>35623</ContainerPort>
         <Protocol>udp</Protocol>
-      </port2>		    
+      </port>		    
     </Publish>
   </Networking>
   <Environment>
