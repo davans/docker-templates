@@ -2,7 +2,7 @@
 <Containers>
   <Beta>False</Beta>
   <Category>Backup:</Category>
-  <Name></Name>
+  <Name>uroni-urbackup</Name>
   <Description>
     urbackup - privelaged for btrfs support [br]
   </Description>
@@ -12,7 +12,7 @@
   <Support>http://lime-technology.com/forum/index.php</Support>
   <Registry>https://registry.hub.docker.com/u/uroni/urbackup-server</Registry>
   <GitHub>https://github.com/uroni/urbackup-server-docker</GitHub>
-  <Repository>uroni/urbackup-server-docker</Repository>
+  <Repository>uroni/urbackup-serverr</Repository>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -60,6 +60,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:55414]/</WebUI>
-  <Icon></Icon>
+  <Icon>https://github.com/davans/docker-templates/blob/master/uroni/urbackup.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
