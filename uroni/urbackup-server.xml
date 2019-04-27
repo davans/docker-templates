@@ -11,21 +11,21 @@
   </Overview>
   <Support>http://lime-technology.com/forum/index.php</Support>
   <Registry>https://registry.hub.docker.com/u/uroni/urbackup-server</Registry>
-  <GitHub>https://github.com/uroni</GitHub>
+  <GitHub>https://github.com/uroni/urbackup-server-docker</GitHub>
   <Repository>uroni/urbackup-server-docker</Repository>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
-      <Port>
+      <Port1>
         <HostPort>55413-55415</HostPort>
         <ContainerPort>55413-55415</ContainerPort>
         <Protocol>tcp</Protocol>
-      </Port>
-      <Port>    
+      </Port1>
+      <Port2>    
 	<HostPort>35623</HostPort>
         <ContainerPort>35623</ContainerPort>
         <Protocol>udp</Protocol>
-      </port>		    
+      </port2>		    
     </Publish>
   </Networking>
   <Environment>
