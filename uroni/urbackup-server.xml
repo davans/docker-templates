@@ -20,10 +20,12 @@
         <HostPort>55413-55415</HostPort>
         <ContainerPort>55413-55415</ContainerPort>
         <Protocol>tcp</Protocol>
-		<HostPort>35623</HostPort>
+      </Port>
+      <Port>    
+	<HostPort>35623</HostPort>
         <ContainerPort>35623</ContainerPort>
         <Protocol>udp</Protocol>
-		</Port>
+      </port>		    
     </Publish>
   </Networking>
   <Environment>
