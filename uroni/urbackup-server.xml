@@ -60,6 +60,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:55414]/</WebUI>
-  <Icon>https://github.com/davans/docker-templates/blob/master/uroni/urbackup.png</Icon>
+  <Icon>https://github.com/davans/docker-templates/blob/master/uroni/urbackup.ico</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
