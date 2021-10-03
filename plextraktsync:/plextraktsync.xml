@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>Plex:</Category>
+  <Name>Taxel PlexTraktSync</Name>
+  <Description>
+    plextraktsync  - Watch for updates to trakt [br]
+  </Description>
+  <Overview>
+    plextraktsync  - Watch twolaw/plextraktsync [br]
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php</Support>
+  <Registry>https://hub.docker.com/r/twolaw/plextraktsync</Registry>
+  <GitHub>https://github.com/twolaw/PlexTraktSync</GitHub>
+  <Repository>twolaw/plextraktsync</Repository>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>DEBUG</Name>
+      <Value>false</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plextraktsync</HostDir>
+      <ContainerDir>/usr/src/app</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
