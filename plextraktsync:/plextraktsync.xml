@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
-  <Beta>False</Beta>
-  <Category>Plex:</Category>
-  <Name>Taxel PlexTraktSync</Name>
-  <Description>
-    plextraktsync  - Watch for updates to trakt [br]
-  </Description>
-  <Overview>
-    plextraktsync  - Watch twolaw/plextraktsync [br]
-  </Overview>
-  <Support>http://lime-technology.com/forum/index.php</Support>
+<Container>
+  <Name>Pints</Name>
+  <Description>plextraktsync  - Watch for updates to trakt [br]</Description>
   <Registry>https://hub.docker.com/r/twolaw/plextraktsync</Registry>
-  <GitHub>https://github.com/twolaw/PlexTraktSync</GitHub>
   <Repository>twolaw/plextraktsync</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
   <Networking>
     <Mode>bridge</Mode>
   </Networking>
-  <Environment>
-    <Variable>
-      <Name>DEBUG</Name>
-      <Value>false</Value>
-    </Variable>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/plextraktsync</HostDir>
@@ -37,7 +17,9 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
-  <Icon></Icon>
+  <Version>05616fd2</Version>
+  <WebUI>http://[iP]:[PORT:80]/</WebUI>
+  <Banner>http://whatsmybeeragain.com/wp-content/uploads/2013/12/Whats-My-Beer-Logo-Banner-2-01-e1318366883801.png</Banner>
+  <Icon>http://fullersbarbeerfest.co.uk/files/6113/8705/6693/light-beer.png</Icon>
   <ExtraParams></ExtraParams>
-</Containers>
+</Container>
